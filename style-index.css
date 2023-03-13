@@ -23,6 +23,7 @@ a {
   /* flex-grow: 1; */
   justify-content: center;
   gap: 20px;
+  /* margin-right: auto ; */
 }
 .navbar-buttons {
   border: 2px solid white;
@@ -216,6 +217,3 @@ footer {
 .media {
   color: white;
 }
-/* body {
-   background-image: url(/images/bg.jpg); 
-}*/
