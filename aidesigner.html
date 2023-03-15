@@ -1,82 +1,120 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>AI Designer</title>
-    </head>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style-aidesigner.css" />
+    <title>AI Designer</title>
+  </head>
 
-    <body>
-        <div>
-            <h1>dukaan</h1>
-            <h2>AI Designer</h2>
-            <p>Welcome to the first ever AI Designer of Pakistan</p>
-            <p>Here you can take design recommendations from AI about the
-                products
-                you want
-                to buy.</p>
-        </div>
-        <hr>
-        <div>
-            <figure>
-                <a href="homedecor.html" target="_blank">
-                    <img
-                        src="images/homedecor.jpeg"
-                        alt="Image of decor items"
-                        title="Buy Home Decor Items!"
-                        width="250"
-                        />
-                    <p>
-                        <figcaption>Home Decor</figcaption>
-                    </p>
-                </a>
-            </figure>
-            <figure>
-                <a href="furniture.html" target="_blank">
-                    <img
-                        src="images/Furniture.jpeg"
-                        alt="Image of Furniture"
-                        title="Buy Furniture!"
-                        width="250"
-                        />
-                    <p>
-                        <figcaption>Furniture</figcaption>
-                    </p>
-                </a>
-            </figure>
-        </div>
-        <hr>
-        <div>
-            <h3>About Us</h3>
-            <p>
-                <a href="">About dukaan</a>
-                <a href="">Contact Us</a>
-            </p>
-        </div>
-        <div>
-            <h3>Follow Us</h3>
-            <a href="" target="_blank">
-                <img
-                    src="icons/iconFacebook_noinline.773db88c5b9ee5aaab365e61cdb750da.svg"
-                    alt="Facebook Logo"
-                    />
+  <body>
+    <header>
+      <div>
+        <ul class="navbar">
+          <li>
+            <a href="index.html">
+              <img src="icons/mainLogo.png" alt="dukaan logo" />
             </a>
-            <a href="" target="_blank">
-                <img
-                    src="icons/iconTwitter_noinline.6037fa7d9a7b9d6408fb1b3d70524b97.svg"
-                    alt="Twitter Logo"
-                    />
-            </a>
-            <a href="" target="_blank">
-                <img
-                    src="icons/iconYoutube_noinline.c85bd6801ec83d6a3b498059550bef26.svg"
-                    alt="Youtube Logo"
-                    />
-            </a>
-            <a href="" target="_blank">
-                <img
-                    src="icons/iconInstagram_noinline.d7d5811ebc44e03a674c8d0b5ff3f232.svg"
-                    alt="Instagram Logo"
-                    />
-            </a>
+          </li>
+          <div class="navbar-mid">
+            <li><a href="index.html" class="navbar-buttons">Home</a></li>
+            <div class="dropdown">
+              <li>
+                <a href="shopnow.html" class="navbar-buttons">All Products</a>
+                <div class="shopnow-content">
+                  <a href="furniture-home.html">Furniture</a>
+                  <a href="homeappliances-home.html">Appliances</a>
+                  <a href="homedecor-home.html">Home Decor</a>
+                  <a href="laptops-home.html">Laptops</a>
+                  <a href="mobiles-home.html">Mobiles</a>
+                </div>
+              </li>
+            </div>
+            <li><a href="login.html" class="navbar-buttons">Login</a></li>
+            <li><a href="signup.html" class="navbar-buttons">SignUp</a></li>
+          </div>
+          <li>
+            <form action="">
+              <input type="search" placeholder="Search here ..." />
+              <i class="fa fa-search"></i>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="bodymid">
+      <h1>AI Designer</h1>
+      <!-- <h1>Welcome to the first ever AI Designer of Pakistan</h1> -->
+      <div class="body1">
+        <img src="images/furniture.jpg" alt="furniture" height="400px" />
+        <div class="body1-flex">
+          <h1>Furniture</h1>
+          <p>
+            We have a wide selection of furniture items on sale, all of which
+            are designed to bring both style and functionality to your home. Use
+            our AI Designer now to get the best furniture for your house.
+          </p>
+          <a href="aigenerator.html" class="navbar-buttons">Design!</a>
         </div>
-    </body>
+      </div>
+      <div class="body1">
+        <div class="body1-flex">
+          <h1>Home Decor</h1>
+          <p>
+            We are excited to offer a variety of home decor items on sale,
+            designed to bring beauty and style to your living space. Use our AI
+            Designer now to get the best home decor items for your house.
+          </p>
+          <a href="aigenerator.html" class="navbar-buttons">Design!</a>
+        </div>
+        <img src="images/homedecor.jpg" alt="homedecor" height="400px" />
+      </div>
+    </div>
+    <footer>
+      <div class="links">
+        <br /><br />
+        <a href="aboutus.html" class="buttons">About Dukaan</a>
+        <span>|</span>
+        <a href="contactus.html" class="buttons">Contact Us</a>
+        <span>|</span>
+        <a href="#" class="buttons"
+          ><img src="icons/backToTop.png" alt="back to top " width="20px"
+        /></a>
+        <br /><br />
+        <!-- <div class="foot"> -->
+        <div class="media">
+          <a href="" target="_blank">
+            <img src="icons/fb.png" alt="Facebook Logo" width="50px" />
+          </a>
+          <a href="" target="_blank">
+            <img src="icons/twitter.png" alt="Twitter Logo" width="50px" />
+          </a>
+          <a href="" target="_blank">
+            <img src="icons/youtube.png" alt="Youtube Logo" width="50px" />
+          </a>
+          <a href="" target="_blank">
+            <img
+              src="icons/instagram.png"
+              alt="Instagram Logo"
+              width="50px
+                              "
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

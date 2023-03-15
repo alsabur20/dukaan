@@ -42,6 +42,7 @@ a {
   border-color: black;
   color: black;
 }
+
 form {
   position: relative;
   transition: all 1s;
@@ -155,10 +156,14 @@ form:hover .fa {
   padding-top: 10px;
   font-size: 36px;
   color: black;
+  cursor: pointer;
+}
+.flexinbodymid a p:hover {
+  text-decoration: underline;
 }
 footer {
   background-color: black;
-  height: 8cm;
+  height: 5cm;
 }
 .media {
   color: white;

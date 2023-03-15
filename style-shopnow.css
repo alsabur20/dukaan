@@ -42,6 +42,7 @@ a {
   border-color: black;
   color: black;
 }
+
 form {
   position: relative;
   transition: all 1s;
@@ -173,7 +174,7 @@ body {
 }
 footer {
   background-color: black;
-  height: 8cm;
+  height: 5cm;
 }
 .media {
   color: white;
