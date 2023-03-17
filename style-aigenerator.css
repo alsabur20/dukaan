@@ -267,3 +267,39 @@ footer {
   cursor: pointer;
   font-family: "Courier New", Courier, monospace;
 }
+.category{
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.shopnow-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.shopnow-content a {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  padding: 15px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.shopnow-content a:hover {
+  background-color: black;
+  color: #ffff;
+  border-radius: 10px;
+}
+.dropdown:hover .shopnow-content {
+  display: block;
+  border-radius: 15px;
+  margin-top: 20px;
+  /* margin-left: 5px;     */
+}
